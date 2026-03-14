@@ -1,0 +1,39 @@
+.badge {
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.badge::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.online {
+  background: rgba(16, 185, 129, 0.1);
+  color: var(--online);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.online::before {
+  background: var(--online);
+  box-shadow: 0 0 8px var(--online);
+}
+
+.offline {
+  background: rgba(148, 163, 184, 0.1);
+  color: var(--offline);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+.offline::before {
+  background: var(--offline);
+}
