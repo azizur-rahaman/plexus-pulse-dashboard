@@ -1,3 +1,11 @@
+# Plexus Pulse Dashboard - Web Monitoring Panel
+
+## 🔗 Production Links
+
+*   **Live Dashboard**: [https://plexus-pulse-dashboard.vercel.app/](https://plexus-pulse-dashboard.vercel.app/)
+*   **API Base URL**: `https://backend-plexuspules-azizur-rahaman.onrender.com/api`
+*   **Mobile App Download**: [Download Android APK](https://www.dropbox.com/scl/fi/1mu12dbhxw9syx2f8368e/app-release.apk?rlkey=hruz0r2y9kke7z35wyqkpoc5x&st=3k1grj0x&dl=0)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
